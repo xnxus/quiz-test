@@ -1,0 +1,108 @@
+.registrationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.surveyBox,
+.registrationBox {
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.surveyTitle,
+.registrationTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.surveyTitle,
+.registrationSubTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+  text-align: left;
+}
+
+.surveyButton,
+.submitButton {
+  margin-top: 1rem;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+.surveyButton:hover,
+.submitButton:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.submitButton {
+  background: #28a745;
+}
+
+.submitButton:hover {
+  background: #218838;
+}
+
+.inputField {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .registrationContainer {
+    padding: 10px;
+  }
+
+  .registrationBox,
+  .surveyBox {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .surveyButton,
+  .submitButton {
+    padding: 12px 15px;
+  }
+
+  .inputField {
+    padding: 12px;
+  }
+}

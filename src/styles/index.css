@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-80 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
