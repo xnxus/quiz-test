@@ -4,6 +4,8 @@ This is a React-based application that includes a short quiz and a registration 
 
 The project is built using [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://github.com/user-attachments/assets/d64e44f9-67d9-4ba4-9b85-fdc8373ab522)
+
 ## ⚙️ Available Scripts
 
 In the project directory, you can run:
